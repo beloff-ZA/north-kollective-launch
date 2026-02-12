@@ -45,24 +45,6 @@ const ContactSection = () => {
           </button>
         </form>
 
-        {/* Social links */}
-        <div className={`flex items-center justify-center gap-8 ${isVisible ? "animate-on-scroll animate-delay-300" : "opacity-0"}`}>
-          <a
-            href="#"
-            className="text-xs uppercase tracking-[0.2em] text-muted-foreground transition-colors duration-300 hover:text-primary"
-            aria-label="LinkedIn"
-          >
-            LinkedIn
-          </a>
-          <span className="h-3 w-[1px] bg-border" />
-          <a
-            href="#"
-            className="text-xs uppercase tracking-[0.2em] text-muted-foreground transition-colors duration-300 hover:text-primary"
-            aria-label="Instagram"
-          >
-            Instagram
-          </a>
-        </div>
       </div>
     </section>
   );
