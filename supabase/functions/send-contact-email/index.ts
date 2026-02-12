@@ -49,7 +49,7 @@ Deno.serve(async (req) => {
           "Content-Type": "application/json",
         },
         body: JSON.stringify({
-          from: "North Kollective <onboarding@resend.dev>",
+          from: "North Kollective <hello@northkollective.studio>",
           to: ["info@northkollective.studio"],
           subject: "New Signup — North Kollective Studio",
           html: `<p>New email signup received:</p><p><strong>${email.trim()}</strong></p><p>Submitted at ${new Date().toISOString()}</p>`,
